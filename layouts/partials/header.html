@@ -1,5 +1,17 @@
 <header>
+    {{/*  <div class="site-title">
+        <div class="title">
+            <img src="{{ .Site.Params.profilePicture | relURL }}" alt="profile picture" />
+            <h3 title=""><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a></h3>
+            <div class="description">
+                <p>{{ replace .Site.Params.description "\n" "<br />" | safeHTML }}</p>
+            </div>
+        </div>
+    </div>  */}}
     <div class="site-title">
+        <div class="title">
+            <img src="{{ .Site.Params.profilePicture | relURL }}" alt="profile picture" />
+        </div>
         <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
-    </div>  
+    </div>
 </header>

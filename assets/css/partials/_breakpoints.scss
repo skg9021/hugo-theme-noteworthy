@@ -18,13 +18,13 @@
 
     .site-title {
         margin: 3em 0em 1em 0em;
-        text-align: left;
+        text-align: center;
     }
 
     .nav-menu {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .nav-link {
@@ -79,7 +79,7 @@
         position: relative;
         visibility: visible;
         margin-top: 1em;
-        text-align: left;
+        text-align: center;
     }
 
     .footer-mobile {
